@@ -36,6 +36,9 @@ body {
 body::-webkit-scrollbar {
   display: none;
  }
+ header{
+  margin-bottom: 50px;
+ }
 
 * {
   font-family: 'Poppins-Regular';
@@ -84,7 +87,22 @@ button{
   color: grey;
 }
 
-
+/**/
+.smart-scroll{
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  z-index: 1030 !important;
+  background: white !important;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out !important; 
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out !important;
+}
+/**/
 
 
 
@@ -93,7 +111,8 @@ button{
 /*header style*/
 .navbar{
   background-color: transparent !important; 
-  padding: 1.7rem 3rem !important;
+  padding: 1rem 3rem !important;
+  box-shadow: 0px 0px 5px lightgrey;
 }
 
 .navbar-nav{
@@ -930,7 +949,9 @@ margin: 10px 0;
 /*media query for 1024px************************************************************************************************************************************************/
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
 
-
+header{
+  margin-bottom: 50px;
+ }
  /*home style*/
 
  .home-banner-div{

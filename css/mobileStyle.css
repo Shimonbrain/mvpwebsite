@@ -68,8 +68,9 @@ button{
 
 /*header style*/
 .navbar{   
-  padding: 1rem 1rem !important;
+  padding: 0.5rem 1rem !important;
   background-color: white !important;
+  position: sticky;
 
 }
 .navbar-light .navbar-toggler {
@@ -87,7 +88,7 @@ button{
     font-size: 12px !important;
 }
 .header-logo{
-  width: 82%;
+  width: 60%;
 }
 .nav-link{
   padding: 10px 30px !important;
@@ -709,6 +710,7 @@ background-image: url(../images/Group 2395.png);
     right: -162px;
     width: top;
     top: 0px;
+    display: none;
 }
 .contact-background2{
   position: absolute;
@@ -716,6 +718,7 @@ background-image: url(../images/Group 2395.png);
     border: 0;
     left: -43%;
     bottom: -53%;
+    display: none;
 }
 
 .contact-section{
