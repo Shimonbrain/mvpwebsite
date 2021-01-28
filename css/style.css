@@ -296,9 +296,9 @@ button{
     height: 50px;
     width: 220px;
     font-weight: 300;
-   position: absolute;
-    margin-top: -100px;
-    margin-left: -100px;
+  position: relative;
+  top: -100px;
+  left: 10px;
 }
 
 .subscription-section{

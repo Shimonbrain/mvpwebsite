@@ -278,9 +278,9 @@ border: 1px solid #3C50E0;
     height: 35px;
     width: 150px;
     font-weight: 300;
-    position: absolute;
-    margin-top: -57px;
-    margin-left: -72px;
+    position: relative;
+    top: -50px;
+    left: 50px;
 }
 
 .subscription-section{
@@ -300,7 +300,7 @@ background-color: white;
 .subscription-cards{
   background-color: #f7f8fd;
   border-radius: 15px;
-  margin: 10px;
+  margin: 15px;
   padding: 20px;
   transition: .3s;
   cursor: pointer;
@@ -316,6 +316,22 @@ background-color: white;
   color: white;
 }
 .subscription-cards:hover .subs-button{
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+.activesub{
+  background-color:#3C50E0;
+  color: white;
+  transition: .3s;
+  transform: scale(1.10);
+}
+
+.activesub  .subs-month{
+  color: white;
+}
+
+.activesub .subs-button{
   color: black;
   background-color: white;
   border: 1px solid white;
@@ -615,7 +631,10 @@ footer{
     margin-top: -24px;
 }
 
-
+.history-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 
 
