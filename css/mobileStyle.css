@@ -310,7 +310,7 @@ background-color: white;
   background-color:#3C50E0;
   color: white;
   transition: .3s;
-  transform: scale(1.10);
+  transform: scale(1.03);
 }
 .subscription-cards:hover .subs-month{
   color: white;
@@ -324,7 +324,7 @@ background-color: white;
   background-color:#3C50E0;
   color: white;
   transition: .3s;
-  transform: scale(1.10);
+  transform: scale(1.03);
 }
 
 .activesub  .subs-month{
