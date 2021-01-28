@@ -235,6 +235,9 @@ button{
     border-bottom: 2px solid lightgrey;
     padding-bottom: 20px;
  }
+ .history-img{
+  width: 85%;
+ }
 
 /* Accordion styles */
 .accordion {
@@ -327,10 +330,24 @@ background-color: white;
   transition: .3s;
   transform: scale(1.10);
 }
+.activesub{
+  background-color:#3C50E0;
+  color: white;
+  transition: .3s;
+  transform: scale(1.10);
+}
 .subscription-cards:hover .subs-month{
   color: white;
 }
+.activesub  .subs-month{
+  color: white;
+}
 .subscription-cards:hover .subs-button{
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+.activesub .subs-button{
   color: black;
   background-color: white;
   border: 1px solid white;
@@ -496,7 +513,7 @@ background-color: white;
 }
 .small-blog-div{
   padding-left: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   width: 100%;
 }
 .p1-div{
@@ -695,6 +712,11 @@ background-image: url(../images/Group 2395.png);
 }
 .text-transparent{
   color: transparent !important;
+}
+.checkbox-img{
+      width: 20px;
+    height: auto;
+    margin: auto;
 }
 
 /*contact us styling*/
@@ -988,6 +1010,9 @@ margin: 10px 0;
     border-bottom: 2px solid lightgrey;
     padding-bottom: 20px;
  }
+ .history-img{
+  width: 100%;
+ }
 
 /* Accordion styles */
 .accordion {
@@ -1249,7 +1274,7 @@ background-color: white;
 }
 .small-blog-div{
   padding-left: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   width: 100%;
 }
 .p1-div{
