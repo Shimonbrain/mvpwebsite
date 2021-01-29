@@ -81,7 +81,7 @@ button{
   border:1px solid black;
 }
 .font-lightgrey{
-  color: #d1d1d1;
+  color: #6D6D6D;
 }
 .font-grey{
   color: grey;
@@ -620,9 +620,23 @@ background-size:100% ;
 }
 .footer-links p{
   font-size: 15px;
-  color: lightgrey;
+  color: #6D6D6D;
   line-height: 33px;
   cursor: pointer;
+}
+.footer-links p:hover{
+  color: black ;
+}
+.footer-links p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: width 0.3s;
+}
+.footer-links p:hover::after {
+  width: 70%;
 }
 
 .Footer-input{
@@ -1388,9 +1402,23 @@ background-size:100% ;
 }
 .footer-links p{
   font-size: 15px;
-  color: lightgrey;
+  color: #6D6D6D;
   line-height: 33px;
   cursor: pointer;
+}
+.footer-links p:hover{
+  color: black ;
+}
+.footer-links p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: width 0.3s;
+}
+.footer-links p:hover::after {
+  width: 70%;
 }
 
 .Footer-input{
