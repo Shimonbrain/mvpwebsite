@@ -178,11 +178,17 @@ button{
  /*home style*/
 
  .home-banner-div{
-  background-image: url("../images/Group 3509.png");
+  background-image: url("../images/bg/Mask Group 397.png");
   height: 160vh; 
   padding: 100px 0 50px 100px;
   overflow: hidden;
-
+  background-size: 100% 100%;
+ }
+ .home-history-div{
+  background-image: url("../images/bg/Group 3508.png");
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
  }
  .banner-head{
   font-size: 58px;
@@ -244,8 +250,9 @@ button{
  }
 
  .Highlights-section{
-  background-image: url("../images/Group 3509.png");
-  background-size: cover;
+  background-image: url("../images/bg/Mask Group 396.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
  }
  .highlight-head{
   font-size: 28px;
@@ -321,8 +328,9 @@ button{
 }
 
 .subscription-section{
-background-image: url("../images/Texture.png");
+background-image: url("../images/bg/Mask Group 403.png");
 background-color: white;
+background-size:100% ;
 }
 .term-usage-button{
   border: 1px solid #3C50E0;
@@ -417,7 +425,8 @@ background-color: white;
 }
 
 .FAQ-section{
-
+  background: url("../images/bg/Mask Group 389.png");
+  background-size: cover;
 }
 .faq-content-div{
   width: 80%;
@@ -654,11 +663,9 @@ cursor: pointer;
 }
 
 footer{
-  background-image: url(../images/Texture.png);
-    background-size: auto;
+    background-image: url("../images/bg/Mask Group 402.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
 }
 .trademark-line{
   font-size: 15px;
@@ -679,9 +686,8 @@ footer{
 /*About Page css*/
 
 .About-banner-section{
-background-image: url(../images/Group 2395.png);
-    background-size: 35%;
-    background-position: top right;
+background-image: url("../images/bg/Mask Group 412.png");
+background-size: 100%;
     background-color: white;
     background-repeat: no-repeat;
 }
@@ -739,22 +745,14 @@ background-image: url(../images/Group 2395.png);
 }
 
 /*contact us styling*/
-.contact-background1{
-  position: absolute;
-    z-index: -1;
-    right: -162px;
-    width: top;
-    top: 0px;
-}
-.contact-background2{
-  position: absolute;
-    z-index: -1;
-    border: 0;
-    left: -43%;
-    bottom: -53%;
-}
 
+.contact-body{
+  background: url("../images/bg/Mask Group 411.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 .contact-section{
+
 }
 .address-div{
   padding: 50px 0;
@@ -807,6 +805,9 @@ background-image: url(../images/Group 2395.png);
 /*Blog page css*/
 
 .Blog-banner-section{
+  background: url("../images/bg/Mask Group 413.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 .time-label{
@@ -912,14 +913,18 @@ background-image: url(../images/Group 2395.png);
   margin: 30px 0; 
 }
 .coa-blog-form{
-  width: 100%;
-  border-radius: 10px;
-background-color: white;
-height: 50px;
-font-family: 'Poppins-Regular';
-font-size: 10px;
-border: none;
-margin: 10px 0;
+width: 100%;
+    border-radius: 10px;
+    background-color: white !important;
+    height: 50px;
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+    border: none;
+    margin: 10px 0;
+    background: url("../images/Mask Group 412.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    padding-left: 20px;
 }
 .coa-blog-form::placeholder{
   font-size: 10px;
@@ -954,12 +959,18 @@ header{
  }
  /*home style*/
 
- .home-banner-div{
-  background-image: url("../images/Group 3509.png");
+.home-banner-div{
+  background-image: url("../images/bg/Mask Group 397.png");
   height: 160vh; 
   padding: 100px 0 50px 100px;
   overflow: hidden;
-
+  background-size: 100% 100%;
+ }
+ .home-history-div{
+  background-image: url("../images/bg/Group 3508.png");
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
  }
  .banner-head{
   font-size: 48px;
@@ -1020,9 +1031,10 @@ header{
   color: grey;
  }
 
- .Highlights-section{
-  background-image: url("../images/Group 3509.png");
-  background-size: cover;
+.Highlights-section{
+  background-image: url("../images/bg/Mask Group 396.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
  }
  .highlight-head{
   font-size: 28px;
@@ -1098,8 +1110,9 @@ header{
 }
 
 .subscription-section{
-background-image: url("../images/Texture.png");
+background-image: url("../images/bg/Mask Group 403.png");
 background-color: white;
+background-size:100% ;
 }
 .term-usage-button{
   border: 1px solid #3C50E0;
@@ -1180,7 +1193,8 @@ background-color: white;
 }
 
 .FAQ-section{
-
+  background: url("../images/bg/Mask Group 389.png");
+  background-size: cover;
 }
 .faq-content-div{
   width: 100%;
@@ -1417,11 +1431,9 @@ cursor: pointer;
 }
 
 footer{
-  background-image: url(../images/Texture.png);
-    background-size: auto;
+    background-image: url("../images/bg/Mask Group 402.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
 }
 .trademark-line{
   font-size: 15px;
@@ -1442,11 +1454,10 @@ footer{
 /*About Page css*/
 
 .About-banner-section{
-background-image: url(../images/Group 2395.png);
-    background-size: 35%;
-    background-position: top right;
-    background-color: white;
-    background-repeat: no-repeat;
+background-image: url("../images/bg/Mask Group 412.png");
+background-size: 100%;
+background-color: white;
+background-repeat: no-repeat;
 }
 .about-cont{
   padding: 100px 200px;
@@ -1565,6 +1576,9 @@ background-image: url(../images/Group 2395.png);
 /*Blog page css*/
 
 .Blog-banner-section{
+background: url("../images/bg/Mask Group 413.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 .time-label{
@@ -1670,14 +1684,18 @@ background-image: url(../images/Group 2395.png);
   margin: 30px 0; 
 }
 .coa-blog-form{
-  width: 100%;
-  border-radius: 10px;
-background-color: white;
-height: 50px;
-font-family: 'Poppins-Regular';
-font-size: 10px;
-border: none;
-margin: 10px 0;
+width: 100%;
+    border-radius: 10px;
+    background-color: white !important;
+    height: 50px;
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+    border: none;
+    margin: 10px 0;
+    background: url("../images/Mask Group 412.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    padding-left: 20px;
 }
 .coa-blog-form::placeholder{
   font-size: 10px;

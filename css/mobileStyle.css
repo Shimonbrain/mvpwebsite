@@ -141,11 +141,17 @@ button{
  /*home style*/
 
  .home-banner-div{
-  background-image: url("../images/Group 3509.png");
+ background-image: url("../images/bg/Mask Group 397.png");
   height: auto; 
   padding: 50px 25px 50px 25px;
   overflow: hidden;
-
+   background-size: 100% 100%;
+ }
+  .home-history-div{
+  background-image: url("../images/bg/Group 3508.png");
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
  }
  .banner-head{
   font-size: 25px;
@@ -208,8 +214,9 @@ margin-top: 0;
  }
 
  .Highlights-section{
-  background-image: url("../images/Group 3509.png");
-  background-size: cover;
+  background-image: url("../images/bg/Mask Group 396.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
  }
  .highlight-head{
   font-size: 17px;
@@ -285,8 +292,9 @@ border: 1px solid #3C50E0;
 }
 
 .subscription-section{
-background-image: url("../images/Texture.png");
+background-image: url("../images/bg/Mask Group 403.png");
 background-color: white;
+background-size:100% ;
 }
 .term-usage-button{
       border: 1px solid #3C50E0;
@@ -383,7 +391,8 @@ background-color: white;
 }
 
 .FAQ-section{
-
+  background: url("../images/bg/Mask Group 389.png");
+  background-size: cover;
 }
 .faq-content-div{
       width: 100%;
@@ -621,11 +630,9 @@ cursor: pointer;
 }
 
 footer{
-  background-image: url(../images/Texture.png);
-    background-size: auto;
+    background-image: url("../images/bg/Mask Group 402.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
 }
 .trademark-line{
  font-size: 9px;
@@ -648,10 +655,10 @@ footer{
 
 /*About Page css*/
 
+
 .About-banner-section{
-background-image: url(../images/Group 2395.png);
-    background-size: 35%;
-    background-position: top right;
+background-image: url("../images/bg/Mask Group 412.png");
+background-size: 100%;
     background-color: white;
     background-repeat: no-repeat;
 }
@@ -704,23 +711,11 @@ background-image: url(../images/Group 2395.png);
 }
 
 /*contact us styling*/
-.contact-background1{
-  position: absolute;
-    z-index: -1;
-    right: -162px;
-    width: top;
-    top: 0px;
-    display: none;
+.contact-body{
+  background: url("../images/bg/Mask Group 411.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.contact-background2{
-  position: absolute;
-    z-index: -1;
-    border: 0;
-    left: -43%;
-    bottom: -53%;
-    display: none;
-}
-
 .contact-section{
 }
 .address-div{
@@ -771,6 +766,9 @@ background-image: url(../images/Group 2395.png);
 /*Blog page css*/
 
 .Blog-banner-section{
+  background: url("../images/bg/Mask Group 413.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 .time-label{
@@ -887,7 +885,12 @@ font-family: 'Poppins-Regular';
 font-size: 10px;
 border: none;
 margin: 10px 0;
+background: url("../images/Mask Group 412.png");
+background-repeat: no-repeat;
+background-position: 95% 50%;
+padding-left: 20px;
 }
+
 .coa-blog-form::placeholder{
   font-size: 10px;
   text-transform: uppercase;
