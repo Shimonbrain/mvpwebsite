@@ -145,12 +145,12 @@ button{
   height: auto; 
   padding: 50px 25px 50px 25px;
   overflow: hidden;
-   background-size: 100% 100%;
+   background-size: cover;
  }
   .home-history-div{
   background-image: url("../images/bg/Group 3508.png");
   overflow: hidden;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
  }
  .banner-head{
@@ -215,7 +215,7 @@ margin-top: 0;
 
  .Highlights-section{
   background-image: url("../images/bg/Mask Group 396.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
  }
  .highlight-head{
@@ -581,6 +581,7 @@ background-size:100% ;
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
+  padding-top: 20px;
 }
 .footer-links{
   padding: 10px 0;
@@ -588,7 +589,7 @@ background-size:100% ;
 .footer-links p{
   font-size: 12px;
   color: #6D6D6D;
-  line-height: 20px;
+  line-height: 25px;
   cursor: pointer;
 }
 .footer-links p:hover{
@@ -603,7 +604,7 @@ background-size:100% ;
   transition: width 0.3s;
 }
 .footer-links p:hover::after {
-  width: 70%;
+  width: 50%;
 }
 
 .Footer-input{
@@ -672,7 +673,7 @@ footer{
 
 .About-banner-section{
 background-image: url("../images/bg/Mask Group 412.png");
-background-size: 100%;
+background-size: cover;
     background-color: white;
     background-repeat: no-repeat;
 }
@@ -726,9 +727,10 @@ background-size: 100%;
 
 /*contact us styling*/
 .contact-body{
-  background: url("../images/bg/Mask Group 411.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+    background: url(../images/bg/Mask Group 411.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position: top;
 }
 .contact-section{
 }
@@ -780,9 +782,9 @@ background-size: 100%;
 /*Blog page css*/
 
 .Blog-banner-section{
-  background: url("../images/bg/Mask Group 413.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+      background: url(../images/bg/Mask Group 413.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 .time-label{
