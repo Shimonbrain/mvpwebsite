@@ -354,20 +354,20 @@ background-size:100% ;
 .subscription-cards:hover{
   background-color:#3C50E0;
   color: white;
-  transition: .3s;
+  transition: .2s;
   transform: scale(1.10);
 }
 .activesub{
-  background-color:#3C50E0;
-  color: white;
-  transition: .3s;
-  transform: scale(1.10);
+  background-color:#3C50E0 !important;
+  color: white !important;
+  transition: .2s !important;
+  transform: scale(1.10) !important;
 }
 .subscription-cards:hover .subs-month{
   color: white;
 }
 .activesub  .subs-month{
-  color: white;
+  color: white !important;
 }
 .subscription-cards:hover .subs-button{
   color: black;
