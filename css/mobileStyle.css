@@ -561,6 +561,8 @@ background-size:100% ;
     font-size: 17px !important;
     border-radius: 15px;
     transition: .5s;
+  width:80%;
+  margin:auto;
 }
 .blog-collapse-head:hover{
   transform: scale(1.10);
